@@ -33,7 +33,7 @@
   "repositories": [ ],
   "autoload": {
     "psr-4": {
-      "GopanKombiyil\\Larango\\": "src"
+      "Gopankombiyil\\Larango\\": "src"
     }
   },
   "autoload-dev": {
@@ -44,7 +44,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "GopanKombiyil\\Larango\\LarangoServiceProvider"
+        "Gopankombiyil\\Larango\\LarangoServiceProvider"
       ]
     }
   }
