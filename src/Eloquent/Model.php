@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Eloquent;
+namespace GopanKombiyil\Larango\Eloquent;
 
 use Illuminate\Database\Eloquent\Model as IlluminateModel;
 use Illuminate\Support\Str;
-use LaravelFreelancerNL\Aranguent\Query\Builder as QueryBuilder;
+use GopanKombiyil\Larango\Query\Builder as QueryBuilder;
 
 abstract class Model extends IlluminateModel
 {

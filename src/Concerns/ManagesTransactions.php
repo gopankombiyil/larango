@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Concerns;
+namespace GopanKombiyil\Larango\Concerns;
 
 use ArangoDBClient\Transaction as ArangoTransaction;
 use Closure;

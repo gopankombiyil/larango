@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Schema;
+namespace GopanKombiyil\Larango\Schema;
 
 use Illuminate\Database\Schema\Grammars\Grammar as IlluminateGrammar;
 use Illuminate\Support\Fluent;

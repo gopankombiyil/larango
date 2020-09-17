@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Migrations;
+namespace GopanKombiyil\Larango\Migrations;
 
 use Exception;
 use Illuminate\Database\Migrations\MigrationCreator as IlluminateMigrationCreator;

@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Schema;
+namespace GopanKombiyil\Larango\Schema;
 
 use ArangoDBClient\CollectionHandler;
 use Closure;
 use Illuminate\Database\Connection;
 use Illuminate\Support\Fluent;
 use Illuminate\Support\Traits\Macroable;
-use LaravelFreelancerNL\Aranguent\Schema\Concerns\Columns;
-use LaravelFreelancerNL\Aranguent\Schema\Concerns\Indexes;
-use LaravelFreelancerNL\Aranguent\Schema\Concerns\Tables;
+use GopanKombiyil\Larango\Schema\Concerns\Columns;
+use GopanKombiyil\Larango\Schema\Concerns\Indexes;
+use GopanKombiyil\Larango\Schema\Concerns\Tables;
 
 /**
  * Class Blueprint.

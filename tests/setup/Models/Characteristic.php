@@ -2,7 +2,7 @@
 
 namespace Tests\Setup\Models;
 
-use LaravelFreelancerNL\Aranguent\Eloquent\Model;
+use GopanKombiyil\Larango\Eloquent\Model;
 
 class Characteristic extends Model
 {

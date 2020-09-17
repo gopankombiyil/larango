@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent;
+namespace GopanKombiyil\Larango;
 
 /**
  * Class Document

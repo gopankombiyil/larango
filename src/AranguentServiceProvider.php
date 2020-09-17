@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent;
+namespace GopanKombiyil\Larango;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelFreelancerNL\Aranguent\Eloquent\Model;
-use LaravelFreelancerNL\Aranguent\Schema\Grammar as SchemaGrammar;
+use GopanKombiyil\Larango\Eloquent\Model;
+use GopanKombiyil\Larango\Schema\Grammar as SchemaGrammar;
 
 class AranguentServiceProvider extends ServiceProvider
 {
@@ -57,11 +57,11 @@ class AranguentServiceProvider extends ServiceProvider
             function ($app) {
                 if (class_exists('Illuminate\Foundation\AliasLoader')) {
                     $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-                    $loader->alias('Eloquent', 'LaravelFreelancerNL\Aranguent\Eloquent\Model');
-                    $loader->alias('Schema', 'LaravelFreelancerNL\Aranguent\Facade\Schema');
+                    $loader->alias('Eloquent', 'GopanKombiyil\Larango\Eloquent\Model');
+                    $loader->alias('Schema', 'GopanKombiyil\Larango\Facade\Schema');
                 }
             }
         );
-        $this->app->register('LaravelFreelancerNL\Aranguent\Providers\CommandServiceProvider');
+        $this->app->register('GopanKombiyil\Larango\Providers\CommandServiceProvider');
     }
 }

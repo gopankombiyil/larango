@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Schema;
+namespace GopanKombiyil\Larango\Schema;
 
 use ArangoDBClient\ClientException;
 use ArangoDBClient\Exception;
 use ArangoDBClient\View;
 use Closure;
 use Illuminate\Support\Fluent;
-use LaravelFreelancerNL\Aranguent\Connection;
+use GopanKombiyil\Larango\Connection;
 
 class Builder
 {

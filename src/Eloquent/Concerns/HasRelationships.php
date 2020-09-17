@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Eloquent\Concerns;
+namespace GopanKombiyil\Larango\Eloquent\Concerns;
 
 use Illuminate\Database\Eloquent\Builder as IlluminateBuilder;
 use Illuminate\Database\Eloquent\Model as IlluminateModel;
 use Illuminate\Support\Str;
-use LaravelFreelancerNL\Aranguent\Eloquent\Relations\BelongsTo;
-use LaravelFreelancerNL\Aranguent\Eloquent\Relations\HasOne;
-use LaravelFreelancerNL\Aranguent\Eloquent\Relations\MorphOne;
-use LaravelFreelancerNL\Aranguent\Eloquent\Relations\MorphTo;
-use LaravelFreelancerNL\Aranguent\Eloquent\Relations\MorphMany;
+use GopanKombiyil\Larango\Eloquent\Relations\BelongsTo;
+use GopanKombiyil\Larango\Eloquent\Relations\HasOne;
+use GopanKombiyil\Larango\Eloquent\Relations\MorphOne;
+use GopanKombiyil\Larango\Eloquent\Relations\MorphTo;
+use GopanKombiyil\Larango\Eloquent\Relations\MorphMany;
 
 trait HasRelationships
 {

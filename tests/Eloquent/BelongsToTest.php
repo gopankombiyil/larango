@@ -5,7 +5,7 @@ namespace Tests\Eloquent;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\DB;
-use LaravelFreelancerNL\Aranguent\Eloquent\Model;
+use GopanKombiyil\Larango\Eloquent\Model;
 use Mockery as M;
 use Tests\setup\Models\Character;
 use Tests\Setup\Models\Location;

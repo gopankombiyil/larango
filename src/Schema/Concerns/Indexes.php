@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Schema\Concerns;
+namespace GopanKombiyil\Larango\Schema\Concerns;
 
 use ArangoDBClient\Exception;
 use Illuminate\Support\Fluent;

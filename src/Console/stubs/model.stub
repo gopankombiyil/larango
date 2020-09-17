@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use LaravelFreelancerNL\Aranguent\Eloquent\Model;
+use GopanKombiyil\Larango\Eloquent\Model;
 
 class DummyClass extends Model
 {

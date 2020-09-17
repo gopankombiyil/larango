@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent;
+namespace GopanKombiyil\Larango;
 
 use ArangoDBClient\CollectionHandler as ArangoCollectionHandler;
 use ArangoDBClient\Connection as ArangoConnection;
@@ -13,13 +13,13 @@ use ArangoDBClient\UserHandler as ArangoUserHandler;
 use ArangoDBClient\ViewHandler as ArangoViewHandler;
 use Illuminate\Database\Connection as IlluminateConnection;
 use Iterator;
-use LaravelFreelancerNL\Aranguent\Concerns\DetectsDeadlocks;
-use LaravelFreelancerNL\Aranguent\Concerns\DetectsLostConnections;
-use LaravelFreelancerNL\Aranguent\Concerns\ManagesTransactions;
-use LaravelFreelancerNL\Aranguent\Query\Builder as QueryBuilder;
-use LaravelFreelancerNL\Aranguent\Query\Grammar as QueryGrammar;
-use LaravelFreelancerNL\Aranguent\Query\Processor;
-use LaravelFreelancerNL\Aranguent\Schema\Builder as SchemaBuilder;
+use GopanKombiyil\Larango\Concerns\DetectsDeadlocks;
+use GopanKombiyil\Larango\Concerns\DetectsLostConnections;
+use GopanKombiyil\Larango\Concerns\ManagesTransactions;
+use GopanKombiyil\Larango\Query\Builder as QueryBuilder;
+use GopanKombiyil\Larango\Query\Grammar as QueryGrammar;
+use GopanKombiyil\Larango\Query\Processor;
+use GopanKombiyil\Larango\Schema\Builder as SchemaBuilder;
 use LaravelFreelancerNL\FluentAQL\QueryBuilder as FluentAQL;
 
 class Connection extends IlluminateConnection
@@ -110,7 +110,7 @@ class Connection extends IlluminateConnection
     /**
      * Get a schema builder instance for the connection.
      *
-     * @return \LaravelFreelancerNL\Aranguent\Schema\Builder
+     * @return \GopanKombiyil\Larango\Schema\Builder
      */
     public function getSchemaBuilder()
     {

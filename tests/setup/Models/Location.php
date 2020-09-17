@@ -3,7 +3,7 @@
 namespace Tests\Setup\Models;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use LaravelFreelancerNL\Aranguent\Eloquent\Model;
+use GopanKombiyil\Larango\Eloquent\Model;
 
 class Location extends Model
 {

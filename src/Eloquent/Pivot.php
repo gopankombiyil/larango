@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Eloquent;
+namespace GopanKombiyil\Larango\Eloquent;
 
 use Illuminate\Database\Eloquent\Relations\Concerns\AsPivot;
 

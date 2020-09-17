@@ -2,8 +2,8 @@
 
 namespace Tests\Schema;
 
-use LaravelFreelancerNL\Aranguent\Facades\Schema;
-use LaravelFreelancerNL\Aranguent\Schema\Blueprint;
+use GopanKombiyil\Larango\Facades\Schema;
+use GopanKombiyil\Larango\Schema\Blueprint;
 use Mockery as M;
 use Tests\TestCase;
 

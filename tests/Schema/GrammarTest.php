@@ -3,7 +3,7 @@
 namespace Tests\Schema;
 
 use Illuminate\Support\Fluent;
-use LaravelFreelancerNL\Aranguent\Schema\Grammar;
+use GopanKombiyil\Larango\Schema\Grammar;
 use Mockery as M;
 use Tests\TestCase;
 

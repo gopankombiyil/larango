@@ -1,7 +1,7 @@
 <?php
 
-use LaravelFreelancerNL\Aranguent\Facades\Schema;
-use LaravelFreelancerNL\Aranguent\Schema\Blueprint;
+use GopanKombiyil\Larango\Facades\Schema;
+use GopanKombiyil\Larango\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
 

@@ -1,5 +1,5 @@
 {
-  "name": "laravel-freelancer-nl/aranguent",
+  "name": "gopankombiyil/larango",
   "description": "Laravel bridge for the ArangoDB Multi-model database",
   "keywords": [
     "laravel",
@@ -13,8 +13,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Laravel Freelancer",
-      "email": "info@laravel-freelancer.nl"
+      "name": "Gopan Kombiyil",
+      "email": "gopan@mizaronline.com.au"
     }
   ],
   "require": {
@@ -32,7 +32,7 @@
   "repositories": [ ],
   "autoload": {
     "psr-4": {
-      "LaravelFreelancerNL\\Aranguent\\": "src"
+      "GopanKombiyil\\Larango\\": "src"
     }
   },
   "autoload-dev": {
@@ -44,7 +44,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "LaravelFreelancerNL\\Aranguent\\AranguentServiceProvider"
+        "GopanKombiyil\\Larango\\AranguentServiceProvider"
       ]
     }
   }

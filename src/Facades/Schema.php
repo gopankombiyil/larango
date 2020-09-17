@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Facades;
+namespace GopanKombiyil\Larango\Facades;
 
 use Closure;
 use Illuminate\Support\Facades\Facade;
-use LaravelFreelancerNL\Aranguent\Schema\Builder;
+use GopanKombiyil\Larango\Schema\Builder;
 
 /**
  * Table handling:.
@@ -20,7 +20,7 @@ use LaravelFreelancerNL\Aranguent\Schema\Builder;
  * @method static Builder renameView(string $from, string $to)
  * @method static Builder dropView(string $name)
  *
- * @see \LaravelFreelancerNL\Aranguent\Schema\Builder
+ * @see \GopanKombiyil\Larango\Schema\Builder
  */
 class Schema extends Facade
 {

@@ -20,7 +20,7 @@ class ConnectionTest extends TestCase
     {
         $this->createDatabase();
 
-        $this->assertInstanceOf('LaravelFreelancerNL\Aranguent\Connection', $this->connection);
+        $this->assertInstanceOf('GopanKombiyil\Larango\Connection', $this->connection);
     }
 
     /**

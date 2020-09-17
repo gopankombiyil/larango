@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Console;
+namespace GopanKombiyil\Larango\Console;
 
 use Illuminate\Foundation\Console\ModelMakeCommand as IlluminateModelMakeCommand;
 

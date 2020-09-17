@@ -3,10 +3,10 @@
 namespace Tests\Schema;
 
 use Illuminate\Support\Collection;
-use LaravelFreelancerNL\Aranguent\Connection;
-use LaravelFreelancerNL\Aranguent\Facades\Schema;
-use LaravelFreelancerNL\Aranguent\Schema\Builder;
-use LaravelFreelancerNL\Aranguent\Schema\Grammar;
+use GopanKombiyil\Larango\Connection;
+use GopanKombiyil\Larango\Facades\Schema;
+use GopanKombiyil\Larango\Schema\Builder;
+use GopanKombiyil\Larango\Schema\Grammar;
 use Mockery as M;
 use Tests\TestCase;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFreelancerNL\Aranguent\Eloquent\Relations;
+namespace GopanKombiyil\Larango\Eloquent\Relations;
 
 use Illuminate\Database\Eloquent\Relations\MorphOne as IlluminateMorphOne;
 
