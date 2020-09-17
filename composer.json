@@ -21,7 +21,8 @@
     "php": "^7.2",
     "laravel/framework": "^7.0",
     "triagens/arangodb": "3.6.*",
-    "laravel-freelancer-nl/aql-query-builder": "^0.3",
+
+    "laravel-freelancer-nl/fluentaql": "1.*",
     "ext-json": "*"
   },
   "require-dev": {
@@ -40,7 +41,6 @@
       "Tests\\": "tests/"
     }
   },
-  "minimum-stability": "dev",
   "extra": {
     "laravel": {
       "providers": [
