@@ -2,7 +2,7 @@
 
 namespace Tests\Setup\Models;
 
-use GopanKombiyil\Larango\Eloquent\Pivot;
+use Gopankombiyil\Larango\Eloquent\Pivot;
 
 class ChildOf extends Pivot
 {

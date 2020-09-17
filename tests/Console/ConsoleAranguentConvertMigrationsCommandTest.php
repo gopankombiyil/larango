@@ -4,7 +4,7 @@ namespace Tests\Console;
 
 use Illuminate\Database\Migrations\Migrator;
 use Illuminate\Foundation\Application;
-use GopanKombiyil\Larango\Console\Migrations\AranguentConvertMigrationsCommand;
+use Gopankombiyil\Larango\Console\Migrations\AranguentConvertMigrationsCommand;
 use Mockery as M;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Output\NullOutput;
@@ -57,7 +57,7 @@ class ConsoleAranguentConvertMigrationsCommandTest extends TestCase
         $this->runCommand($command);
 
         $content = file_get_contents($this->conversionMigration);
-        $occurenceOfAranguent = substr_count($content, 'GopanKombiyil\Larango');
+        $occurenceOfAranguent = substr_count($content, 'Gopankombiyil\Larango');
         $occurenceOfIlluminate = substr_count($content, 'Illuminate\Database');
         $this->assertEquals(2, $occurenceOfAranguent);
         $this->assertEquals(1, $occurenceOfIlluminate);

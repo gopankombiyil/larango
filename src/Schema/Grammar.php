@@ -1,6 +1,6 @@
 <?php
 
-namespace GopanKombiyil\Larango\Schema;
+namespace Gopankombiyil\Larango\Schema;
 
 use Illuminate\Database\Schema\Grammars\Grammar as IlluminateGrammar;
 use Illuminate\Support\Fluent;

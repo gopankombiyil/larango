@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use GopanKombiyil\Larango\Eloquent\Pivot;
+use Gopankombiyil\Larango\Eloquent\Pivot;
 
 class DummyClass extends Pivot
 {

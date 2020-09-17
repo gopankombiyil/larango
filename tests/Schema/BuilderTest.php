@@ -3,10 +3,10 @@
 namespace Tests\Schema;
 
 use Illuminate\Support\Collection;
-use GopanKombiyil\Larango\Connection;
-use GopanKombiyil\Larango\Facades\Schema;
-use GopanKombiyil\Larango\Schema\Builder;
-use GopanKombiyil\Larango\Schema\Grammar;
+use Gopankombiyil\Larango\Connection;
+use Gopankombiyil\Larango\Facades\Schema;
+use Gopankombiyil\Larango\Schema\Builder;
+use Gopankombiyil\Larango\Schema\Grammar;
 use Mockery as M;
 use Tests\TestCase;
 

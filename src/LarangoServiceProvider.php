@@ -1,10 +1,10 @@
 <?php
 
-namespace GopanKombiyil\Larango;
+namespace Gopankombiyil\Larango;
 
 use Illuminate\Support\ServiceProvider;
-use GopanKombiyil\Larango\Eloquent\Model;
-use GopanKombiyil\Larango\Schema\Grammar as SchemaGrammar;
+use Gopankombiyil\Larango\Eloquent\Model;
+use Gopankombiyil\Larango\Schema\Grammar as SchemaGrammar;
 
 class LarangoServiceProvider extends ServiceProvider
 {
@@ -57,11 +57,11 @@ class LarangoServiceProvider extends ServiceProvider
             function ($app) {
                 if (class_exists('Illuminate\Foundation\AliasLoader')) {
                     $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-                    $loader->alias('Eloquent', 'GopanKombiyil\Larango\Eloquent\Model');
-                    $loader->alias('Schema', 'GopanKombiyil\Larango\Facade\Schema');
+                    $loader->alias('Eloquent', 'Gopankombiyil\Larango\Eloquent\Model');
+                    $loader->alias('Schema', 'Gopankombiyil\Larango\Facade\Schema');
                 }
             }
         );
-        $this->app->register('GopanKombiyil\Larango\Providers\CommandServiceProvider');
+        $this->app->register('Gopankombiyil\Larango\Providers\CommandServiceProvider');
     }
 }

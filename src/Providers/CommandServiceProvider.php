@@ -1,13 +1,13 @@
 <?php
 
-namespace GopanKombiyil\Larango\Providers;
+namespace Gopankombiyil\Larango\Providers;
 
 use Illuminate\Database\MigrationServiceProvider as IlluminateMigrationServiceProvider;
-use GopanKombiyil\Larango\Console\Migrations\AranguentConvertMigrationsCommand;
-use GopanKombiyil\Larango\Console\Migrations\MigrateMakeCommand;
-use GopanKombiyil\Larango\Console\ModelAranguentCommand;
-use GopanKombiyil\Larango\Migrations\DatabaseMigrationRepository;
-use GopanKombiyil\Larango\Migrations\MigrationCreator;
+use Gopankombiyil\Larango\Console\Migrations\AranguentConvertMigrationsCommand;
+use Gopankombiyil\Larango\Console\Migrations\MigrateMakeCommand;
+use Gopankombiyil\Larango\Console\ModelAranguentCommand;
+use Gopankombiyil\Larango\Migrations\DatabaseMigrationRepository;
+use Gopankombiyil\Larango\Migrations\MigrationCreator;
 
 class CommandServiceProvider extends IlluminateMigrationServiceProvider
 {

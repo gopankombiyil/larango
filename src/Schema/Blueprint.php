@@ -1,15 +1,15 @@
 <?php
 
-namespace GopanKombiyil\Larango\Schema;
+namespace Gopankombiyil\Larango\Schema;
 
 use ArangoDBClient\CollectionHandler;
 use Closure;
 use Illuminate\Database\Connection;
 use Illuminate\Support\Fluent;
 use Illuminate\Support\Traits\Macroable;
-use GopanKombiyil\Larango\Schema\Concerns\Columns;
-use GopanKombiyil\Larango\Schema\Concerns\Indexes;
-use GopanKombiyil\Larango\Schema\Concerns\Tables;
+use Gopankombiyil\Larango\Schema\Concerns\Columns;
+use Gopankombiyil\Larango\Schema\Concerns\Indexes;
+use Gopankombiyil\Larango\Schema\Concerns\Tables;
 
 /**
  * Class Blueprint.

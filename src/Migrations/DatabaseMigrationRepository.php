@@ -1,10 +1,10 @@
 <?php
 
-namespace GopanKombiyil\Larango\Migrations;
+namespace Gopankombiyil\Larango\Migrations;
 
 use Illuminate\Database\ConnectionResolverInterface as IlluminateResolver;
 use Illuminate\Database\Migrations\DatabaseMigrationRepository as IlluminateDatabaseMigrationRepository;
-use GopanKombiyil\Larango\Query\Builder;
+use Gopankombiyil\Larango\Query\Builder;
 use LaravelFreelancerNL\FluentAQL\QueryBuilder;
 
 class DatabaseMigrationRepository extends IlluminateDatabaseMigrationRepository

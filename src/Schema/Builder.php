@@ -1,13 +1,13 @@
 <?php
 
-namespace GopanKombiyil\Larango\Schema;
+namespace Gopankombiyil\Larango\Schema;
 
 use ArangoDBClient\ClientException;
 use ArangoDBClient\Exception;
 use ArangoDBClient\View;
 use Closure;
 use Illuminate\Support\Fluent;
-use GopanKombiyil\Larango\Connection;
+use Gopankombiyil\Larango\Connection;
 
 class Builder
 {

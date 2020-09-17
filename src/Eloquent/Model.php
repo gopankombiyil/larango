@@ -1,10 +1,10 @@
 <?php
 
-namespace GopanKombiyil\Larango\Eloquent;
+namespace Gopankombiyil\Larango\Eloquent;
 
 use Illuminate\Database\Eloquent\Model as IlluminateModel;
 use Illuminate\Support\Str;
-use GopanKombiyil\Larango\Query\Builder as QueryBuilder;
+use Gopankombiyil\Larango\Query\Builder as QueryBuilder;
 
 abstract class Model extends IlluminateModel
 {

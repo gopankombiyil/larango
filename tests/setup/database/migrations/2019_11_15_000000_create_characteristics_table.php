@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Migrations\Migration;
-use GopanKombiyil\Larango\Facades\Schema;
-use GopanKombiyil\Larango\Schema\Blueprint;
+use Gopankombiyil\Larango\Facades\Schema;
+use Gopankombiyil\Larango\Schema\Blueprint;
 
 class CreateCharacteristicsTable extends Migration
 {

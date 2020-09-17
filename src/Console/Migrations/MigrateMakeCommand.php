@@ -1,12 +1,12 @@
 <?php
 
-namespace GopanKombiyil\Larango\Console\Migrations;
+namespace Gopankombiyil\Larango\Console\Migrations;
 
 use Illuminate\Database\Console\Migrations\MigrateMakeCommand as IlluminateMigrateMakeCommand;
 use Illuminate\Database\Console\Migrations\TableGuesser;
 use Illuminate\Support\Composer;
 use Illuminate\Support\Str;
-use GopanKombiyil\Larango\Migrations\MigrationCreator;
+use Gopankombiyil\Larango\Migrations\MigrationCreator;
 
 class MigrateMakeCommand extends IlluminateMigrateMakeCommand
 {

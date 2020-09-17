@@ -1,6 +1,6 @@
 <?php
 
-namespace GopanKombiyil\Larango\Auth;
+namespace Gopankombiyil\Larango\Auth;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Auth\MustVerifyEmail;
@@ -9,7 +9,7 @@ use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 use Illuminate\Foundation\Auth\Access\Authorizable;
-use GopanKombiyil\Larango\Eloquent\Model as AranguentModel;
+use Gopankombiyil\Larango\Eloquent\Model as AranguentModel;
 
 class User extends AranguentModel implements
     AuthenticatableContract,

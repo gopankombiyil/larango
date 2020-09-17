@@ -2,8 +2,8 @@
 
 namespace Tests\Schema;
 
-use GopanKombiyil\Larango\Facades\Schema;
-use GopanKombiyil\Larango\Schema\Blueprint;
+use Gopankombiyil\Larango\Facades\Schema;
+use Gopankombiyil\Larango\Schema\Blueprint;
 use Mockery as M;
 use Tests\TestCase;
 

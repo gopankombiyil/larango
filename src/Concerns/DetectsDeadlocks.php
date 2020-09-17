@@ -1,6 +1,6 @@
 <?php
 
-namespace GopanKombiyil\Larango\Concerns;
+namespace Gopankombiyil\Larango\Concerns;
 
 use Exception;
 

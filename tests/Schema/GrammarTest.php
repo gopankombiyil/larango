@@ -3,7 +3,7 @@
 namespace Tests\Schema;
 
 use Illuminate\Support\Fluent;
-use GopanKombiyil\Larango\Schema\Grammar;
+use Gopankombiyil\Larango\Schema\Grammar;
 use Mockery as M;
 use Tests\TestCase;
 

@@ -6,8 +6,8 @@ use ArangoDBClient\Database;
 use Tests\setup\database\Seeds\DatabaseSeeder;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\DB;
-use GopanKombiyil\Larango\AranguentServiceProvider;
-use GopanKombiyil\Larango\Migrations\DatabaseMigrationRepository;
+use Gopankombiyil\Larango\AranguentServiceProvider;
+use Gopankombiyil\Larango\Migrations\DatabaseMigrationRepository;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -89,7 +89,7 @@ abstract class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageAliases($app)
     {
         return [
-            'Aranguent' => 'GopanKombiyil\Larango',
+            'Aranguent' => 'Gopankombiyil\Larango',
         ];
     }
 

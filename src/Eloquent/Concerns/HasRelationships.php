@@ -1,15 +1,15 @@
 <?php
 
-namespace GopanKombiyil\Larango\Eloquent\Concerns;
+namespace Gopankombiyil\Larango\Eloquent\Concerns;
 
 use Illuminate\Database\Eloquent\Builder as IlluminateBuilder;
 use Illuminate\Database\Eloquent\Model as IlluminateModel;
 use Illuminate\Support\Str;
-use GopanKombiyil\Larango\Eloquent\Relations\BelongsTo;
-use GopanKombiyil\Larango\Eloquent\Relations\HasOne;
-use GopanKombiyil\Larango\Eloquent\Relations\MorphOne;
-use GopanKombiyil\Larango\Eloquent\Relations\MorphTo;
-use GopanKombiyil\Larango\Eloquent\Relations\MorphMany;
+use Gopankombiyil\Larango\Eloquent\Relations\BelongsTo;
+use Gopankombiyil\Larango\Eloquent\Relations\HasOne;
+use Gopankombiyil\Larango\Eloquent\Relations\MorphOne;
+use Gopankombiyil\Larango\Eloquent\Relations\MorphTo;
+use Gopankombiyil\Larango\Eloquent\Relations\MorphMany;
 
 trait HasRelationships
 {

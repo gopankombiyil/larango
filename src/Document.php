@@ -1,6 +1,6 @@
 <?php
 
-namespace GopanKombiyil\Larango;
+namespace Gopankombiyil\Larango;
 
 /**
  * Class Document

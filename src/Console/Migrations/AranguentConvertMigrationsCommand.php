@@ -1,6 +1,6 @@
 <?php
 
-namespace GopanKombiyil\Larango\Console\Migrations;
+namespace Gopankombiyil\Larango\Console\Migrations;
 
 use Illuminate\Console\ConfirmableTrait;
 use Illuminate\Database\Console\Migrations\BaseCommand;
@@ -70,8 +70,8 @@ class AranguentConvertMigrationsCommand extends BaseCommand
         // Check for additional information to make sure we
         // partial matches aren't accidentally replaced.
         $replacements = [
-            'Illuminate\Support\Facades\Schema' => 'GopanKombiyil\Larango\Facades\Schema',
-            'Illuminate\Database\Schema\Blueprint' => 'GopanKombiyil\Larango\Schema\Blueprint',
+            'Illuminate\Support\Facades\Schema' => 'Gopankombiyil\Larango\Facades\Schema',
+            'Illuminate\Database\Schema\Blueprint' => 'Gopankombiyil\Larango\Schema\Blueprint',
             '$table ' => '$collection ',
             '$table,' => '$collection,',
             '$table->' => '$collection->',

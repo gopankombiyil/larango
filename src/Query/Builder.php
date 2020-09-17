@@ -1,6 +1,6 @@
 <?php
 
-namespace GopanKombiyil\Larango\Query;
+namespace Gopankombiyil\Larango\Query;
 
 use Closure;
 use Illuminate\Database\ConnectionInterface;
@@ -10,7 +10,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use GopanKombiyil\Larango\Connection;
+use Gopankombiyil\Larango\Connection;
 use LaravelFreelancerNL\FluentAQL\Exceptions\BindException;
 use LaravelFreelancerNL\FluentAQL\Expressions\ExpressionInterface as ExpressionInterface;
 use LaravelFreelancerNL\FluentAQL\QueryBuilder;

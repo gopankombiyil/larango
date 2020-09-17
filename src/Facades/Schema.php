@@ -1,10 +1,10 @@
 <?php
 
-namespace GopanKombiyil\Larango\Facades;
+namespace Gopankombiyil\Larango\Facades;
 
 use Closure;
 use Illuminate\Support\Facades\Facade;
-use GopanKombiyil\Larango\Schema\Builder;
+use Gopankombiyil\Larango\Schema\Builder;
 
 /**
  * Table handling:.
@@ -20,7 +20,7 @@ use GopanKombiyil\Larango\Schema\Builder;
  * @method static Builder renameView(string $from, string $to)
  * @method static Builder dropView(string $name)
  *
- * @see \GopanKombiyil\Larango\Schema\Builder
+ * @see \Gopankombiyil\Larango\Schema\Builder
  */
 class Schema extends Facade
 {

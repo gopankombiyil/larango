@@ -1,7 +1,7 @@
 <?php
 
-use GopanKombiyil\Larango\Facades\Schema;
-use GopanKombiyil\Larango\Schema\Blueprint;
+use Gopankombiyil\Larango\Facades\Schema;
+use Gopankombiyil\Larango\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
 class DummyClass extends Migration

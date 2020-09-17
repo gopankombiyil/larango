@@ -1,6 +1,6 @@
 <?php
 
-namespace GopanKombiyil\Larango\Console;
+namespace Gopankombiyil\Larango\Console;
 
 use Illuminate\Foundation\Console\ModelMakeCommand as IlluminateModelMakeCommand;
 

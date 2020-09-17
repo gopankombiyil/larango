@@ -4,8 +4,8 @@ namespace Tests\Eloquent;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
-use GopanKombiyil\Larango\Document;
-use GopanKombiyil\Larango\Eloquent\Model;
+use Gopankombiyil\Larango\Document;
+use Gopankombiyil\Larango\Eloquent\Model;
 use Mockery as M;
 use Tests\setup\Models\Character;
 use Tests\TestCase;
@@ -65,7 +65,7 @@ class ModelTest extends TestCase
 
         //assert file refers to Aranguent Base Model
         $content = file_get_contents($file);
-        $this->assertStringContainsString('use GopanKombiyil\Larango\Eloquent\Model;', $content);
+        $this->assertStringContainsString('use Gopankombiyil\Larango\Eloquent\Model;', $content);
     }
 
     public function testInsertModel()

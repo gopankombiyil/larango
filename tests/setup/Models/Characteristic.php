@@ -2,7 +2,7 @@
 
 namespace Tests\Setup\Models;
 
-use GopanKombiyil\Larango\Eloquent\Model;
+use Gopankombiyil\Larango\Eloquent\Model;
 
 class Characteristic extends Model
 {

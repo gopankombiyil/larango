@@ -1,6 +1,6 @@
 <?php
 
-namespace GopanKombiyil\Larango\Migrations;
+namespace Gopankombiyil\Larango\Migrations;
 
 use Exception;
 use Illuminate\Database\Migrations\MigrationCreator as IlluminateMigrationCreator;

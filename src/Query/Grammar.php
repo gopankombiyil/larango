@@ -1,6 +1,6 @@
 <?php
 
-namespace GopanKombiyil\Larango\Query;
+namespace Gopankombiyil\Larango\Query;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

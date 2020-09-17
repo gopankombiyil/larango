@@ -3,7 +3,7 @@
 namespace Tests\Setup\Models;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use GopanKombiyil\Larango\Eloquent\Model;
+use Gopankombiyil\Larango\Eloquent\Model;
 
 class Location extends Model
 {

@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use GopanKombiyil\Larango\Eloquent\Model;
+use Gopankombiyil\Larango\Eloquent\Model;
 
 class DummyClass extends Model
 {

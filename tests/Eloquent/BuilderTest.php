@@ -3,7 +3,7 @@
 namespace Tests\Eloquent;
 
 use Illuminate\Support\Carbon;
-use GopanKombiyil\Larango\Eloquent\Model;
+use Gopankombiyil\Larango\Eloquent\Model;
 use Mockery as M;
 use Tests\Setup\Models\Character;
 use Tests\Setup\Models\Location;

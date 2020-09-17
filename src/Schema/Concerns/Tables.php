@@ -1,6 +1,6 @@
 <?php
 
-namespace GopanKombiyil\Larango\Schema\Concerns;
+namespace Gopankombiyil\Larango\Schema\Concerns;
 
 use Illuminate\Support\Fluent;
 
