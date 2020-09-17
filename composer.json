@@ -8,7 +8,7 @@
     "document",
     "graph",
     "database",
-    "aranguent"
+    "larango"
   ],
   "license": "MIT",
   "authors": [
@@ -44,7 +44,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "GopanKombiyil\\Larango\\AranguentServiceProvider"
+        "GopanKombiyil\\Larango\\LarangoServiceProvider"
       ]
     }
   }

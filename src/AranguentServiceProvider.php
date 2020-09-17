@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use GopanKombiyil\Larango\Eloquent\Model;
 use GopanKombiyil\Larango\Schema\Grammar as SchemaGrammar;
 
-class AranguentServiceProvider extends ServiceProvider
+class LarangoServiceProvider extends ServiceProvider
 {
     /**
      * Components to register on the provider.
