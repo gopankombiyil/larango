@@ -19,8 +19,8 @@
   ],
   "require": {
     "php": "^7.2",
-    "laravel/framework": "^7.0",
-    "triagens/arangodb": "3.6.*",
+    "laravel/framework": "^8.0",
+    "triagens/arangodb": "3.7.*",
 
     "laravel-freelancer-nl/fluentaql": "1.*",
     "ext-json": "*"
